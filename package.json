@@ -1,6 +1,6 @@
 {
   "name": "fucking-ip",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get your IP information easily, and fuck those convoluted command lines.",
   "bin": {
     "ip": "./bin/ip"
