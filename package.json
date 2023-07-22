@@ -1,0 +1,26 @@
+{
+  "name": "fucking-ip",
+  "version": "1.0.1",
+  "description": "Get your IP information easily, and fuck those convoluted command lines.",
+  "bin": {
+    "ip": "./bin/ip"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ip",
+    "city",
+    "country",
+    "location",
+    "tool"
+  ],
+  "type": "module",
+  "author": "William Tan youngtam733@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChuYang-FE/fucking-ip.git"
+  }
+}
