@@ -11,7 +11,7 @@ Because you want to fuck those complex command lines to get IP information.
 1. Install globally using npm
 
    ```zsh
-   npm i fucking-ip -g
+   npm i fuck-ip -g
    ```
 
 2. Type `ip` in your ternimal

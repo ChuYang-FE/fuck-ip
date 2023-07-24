@@ -1,6 +1,6 @@
 {
-  "name": "fucking-ip",
-  "version": "1.0.4",
+  "name": "fuck-ip",
+  "version": "1.0.1",
   "description": "Get your IP information easily, and fuck those convoluted command lines.",
   "bin": {
     "ip": "./bin/ip"
@@ -21,6 +21,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChuYang-FE/fucking-ip.git"
+    "url": "https://github.com/ChuYang-FE/fuck-ip.git"
   }
 }
