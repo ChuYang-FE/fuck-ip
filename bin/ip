@@ -1,1 +1,22 @@
-curl ipinfo.io
+#!/usr/bin/env node
+
+const chalk = require("chalk");
+const { exec } = require("child_process");
+
+exec("curl ipinfo.io", (err, stdout, stderr) => {
+  const { error, log } = console;
+  if (err) {
+    error(`Error: ${err.message}`);
+    return;
+  }
+
+  const { ip, city, region, country, loc, org, timezone } = JSON.parse(stdout);
+
+  log(chalk.green("IP: ", ip));
+  log(chalk.white("City: ", city));
+  log(chalk.yellow("Region: ", region));
+  log(chalk.green("Country: ", country));
+  log(chalk.white("Location: ", loc));
+  log(chalk.yellow("Timezone: ", timezone));
+  log(chalk.green("Org: ", org));
+});
