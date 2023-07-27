@@ -1,1 +1,1 @@
-console.log("Fuck those convoluted command lines");
+console.log("Hello Log-ip!");
